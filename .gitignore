@@ -3,3 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 data/raw/*.csv
+data/raw/*.zip          # Ignore downloaded archives
+*.log                   # Ignore log files
+.DS_Store               # Mac junk (if you ever use Mac)
+models/*.pkl            # Ignore large pickled models if needed
