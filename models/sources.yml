@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: medstream_360
+    database: dev
+    schema: bronze
+    tables:
+      - name: bronze_vitals
+        description: "Raw patient vitals from Kafka (Bronze layer)"
+        identifier: vitals   # This tells dbt the actual table name
